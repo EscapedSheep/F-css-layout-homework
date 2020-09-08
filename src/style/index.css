@@ -18,3 +18,92 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.navList {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2d3032;
+  color: white;
+  align-items: center;
+  height: 80px;
+}
+
+.content {
+  padding: 0 100px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.articleNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about {
+  flex-wrap: wrap;
+}
+
+.articles {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.article {
+  flex: 0 0 45%;
+  margin: 10px;
+  border: 1px solid;
+}
+
+.article-body {
+  padding: 20px;
+}
+
+.loginSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+.rememberMe {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.article-third {
+  margin-top: -300px;
+}
+
+.input {
+  font-size: large;
+}
+
+.btn {
+  background-color: #0a61ff;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  font-size: large;
+}
