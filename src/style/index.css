@@ -48,7 +48,7 @@ ul {
 
 .articles {
   display: flex;
-  align-items: flex-start;
+  align-content: flex-start;
   flex-wrap: wrap;
   padding-left: 50px;
 }
@@ -88,10 +88,6 @@ ul {
 .rememberMe {
   margin-top: 10px;
   margin-bottom: 20px;
-}
-
-.article-third {
-  margin-top: -300px;
 }
 
 .input {
