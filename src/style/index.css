@@ -39,7 +39,7 @@ ul {
 .articleNav {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 50px;
 }
 
 .about {
@@ -49,13 +49,15 @@ ul {
 .articles {
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
   flex-wrap: wrap;
   padding-left: 50px;
-  gap: 30px
+  gap: 30px;
+  height: 1200px;
 }
 
-.article-third {
-  margin-top: -200px;
+.article-second {
+  order: 1
 }
 
 .img {
@@ -64,8 +66,8 @@ ul {
 }
 
 .article {
-  flex: 0 0 45%;
   border: 1px solid;
+  width: 50%;
 }
 
 .article-body {
@@ -76,7 +78,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -100px;
+  margin-left: 30px;
 }
 
 .loginBox {
@@ -98,7 +100,7 @@ ul {
   font-size: large;
 }
 
-.btn {
+.button-login {
   background-color: #0a61ff;
   color: white;
   width: 100%;
